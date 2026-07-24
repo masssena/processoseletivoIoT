@@ -10,15 +10,7 @@
       "left": -33.56,
       "attrs": { "env": "micropython-20220618-v1.19.1" }
     },
-
-    { 
-      "type": "wokwi-mpu6050", 
-      "id": "imu1", 
-      "top": 42.22, 
-      "left": 117.52, 
-      "attrs": {} 
-    },
-   
+    { "type": "wokwi-mpu6050", "id": "imu1", "top": 42.22, "left": 117.52, "attrs": {} },
     {
       "type": "wokwi-pushbutton",
       "id": "btn1",
