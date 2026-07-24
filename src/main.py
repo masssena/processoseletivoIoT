@@ -86,5 +86,5 @@ while True:
     print("Status: Sistema Normalizado.")
   alarme_anterior = alarme_atual
 
-  time.sleep_ms(20)
+  time.sleep_ms(40)
   
