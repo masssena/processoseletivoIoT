@@ -85,4 +85,6 @@ while True:
   if alarme_anterior and not alarme_atual:
     print("Status: Sistema Normalizado.")
   alarme_anterior = alarme_atual
+
+  time.sleep_ms(20)
   
