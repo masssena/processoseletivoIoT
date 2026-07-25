@@ -11,14 +11,14 @@ steps:
   - set-control:
       part-id: btn1
       control: pressed
-      value: 1
+      value: 0
   - delay: 1s
 
   # 3. Simula a abertura da porta (solta o botão)
   - set-control:
       part-id: btn1
       control: pressed
-      value: 0
+      value: 1
 
   # 4. O sistema não deve alarmar imediatamente. Aguarda um tempo menor que X (ex: 3 segundos se X=5)
   - delay: 3s
