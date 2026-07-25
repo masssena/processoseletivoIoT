@@ -1,6 +1,10 @@
 name: 'Caso de Teste 1: Alarme por Porta Aberta (Tempo Limite X)'
 version: 1
 author: 'Professor/Validador'
+env:
+    WOKWI_CLI_TOKEN: ${{ secrets.WOKWI_CLI_TOKEN }}
+    
+run: wokwi-cli --project .
 steps:
   # 1. Aguarda o sistema inicializar completamente
   - wait-serial: 'Sistema de Monitoramento Inicializado'
