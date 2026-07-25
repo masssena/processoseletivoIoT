@@ -71,7 +71,7 @@ while True:
 
   if (not alarme_temp) and delta_t >= limite_Temperatura:
     alarme_temp = True
-    print("ALERTA: Degradacao Termica detectada!")
+    print("ALERTA: Degradacao termica detectada!")
   elif alarme_temp and delta_t < limite_Temperatura:
     alarme_temp = False
 
@@ -82,6 +82,7 @@ while True:
   # Atualização do Status com garantia da normalização  
   alarme_atual = alarme_porta or alarme_temp
   if alarme_anterior and not alarme_atual:
+    time.sleep_ms(500)
     print("Status: Sistema Normalizado.")
   alarme_anterior = alarme_atual
 
