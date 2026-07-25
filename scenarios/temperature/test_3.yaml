@@ -1,10 +1,6 @@
 name: 'Caso de Teste 3: Retorno ao Estado Normal (Cessação do Alarme)'
 version: 1
 author: 'Professor/Validador'
-env:
-    WOKWI_CLI_TOKEN: ${{ secrets.WOKWI_CLI_TOKEN }}
-    
-run: wokwi-cli --project .
 steps:
   # 1. Aguarda inicialização e força estado de alarme deixando a porta aberta
   - wait-serial: 'Sistema de Monitoramento Inicializado'
