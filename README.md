@@ -1,14 +1,13 @@
 # Processo Seletivo – Intensivo Maker | IoT
 
 ### Vítor Massena dos Santos
-
 ### github.com/masssena
 
 ## Projeto de Sistema de Monitoramento de Temperatura e Abertura de Porta (SmartCooler / Estufa) | TEMPERATURE Scenario
 
 Este projeto foi desenvolvido em python no simulador Wokwi, executado em virtualização em docker disponibilizado pelo PNAAT, como etapa do processo seletivo da fase LabMaker.
 
-O projeto consiste numa construção de um dispositivo que verifica duas principais variáveis externas: abertura de porta e temperatura ambiente. O objetivo principal é a análise constante destes fatores que possam afetar o isolamento térmico de um ambiente, como o caso de uma estufa ou um freezer, se comunicando com o usuário por serial o status e os avisos do sistema. Caso a porta fique aberta por muito tempo, estourando o limite de estabelecido de 5 segundos, ou a temperatura aumente além do aceitável determinado em código, o sistema enviará avisos ao usuário, bem como quando ocorre a normalização das variáveis.
+O projeto consiste numa construção de um dispositivo que verifica duas principais variáveis externas: abertura de porta e temperatura ambiente. O objetivo principal é a análise constante destes fatores que possam afetar o isolamento térmico de um ambiente, como o caso de uma estufa ou um freezer, comunicando com o usuário (por serial) o status e os avisos do sistema. Caso a porta fique aberta por muito tempo, estourando o limite estabelecido de 5 segundos, ou a temperatura aumente além do aceitável determinado em código (3°C), o sistema enviará avisos ao usuário, bem como quando ocorre a normalização das variáveis.
 
 ---
 
