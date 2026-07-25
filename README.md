@@ -28,7 +28,7 @@ Foram utilizados os componentes:
 2. Leitor de Temperatura (MPU 6050)
 3. Botão
 
-O ESP32 é responsável pelo controle e comunicação serial e entre dispositivos. Para a comunicação Serial, utiliza as conexões em TX e RX, enquanto as demais portas definidas no *diagram.json* são utilizadas para comunicação entre os demais dispositivos.
+O ESP32 é responsável pelo controle e comunicação serial e entre dispositivos. Para a comunicação Serial, utiliza as conexões em TX e RX, enquanto as demais portas definidas no *diagram.json* são utilizadas para comunicação com os outros dispositivos.
 
 ### Decisões técnicas
 
@@ -36,4 +36,4 @@ O código, por ser de simples execução, foi construído em um só arquivo e se
 
 ## Resultados Obtidos
 
-O
+O projeto atendeu a todos os requisitos esperados. Todos os testes pessoais e automatizados foram feitos e os resultados foram satisfatórios. O firmware não possui erros evidentes ou de funcionamento e a construção da simulação de hardware está em bom desempenho. Mesmo que, com mais disponibilidade de tempo, fosse possível otimizar tanto o funcionamento do firmware quanto o do hardware, o projeto atingiu bons resultados.
