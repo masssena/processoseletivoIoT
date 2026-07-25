@@ -24,7 +24,6 @@ TEMP_OUT_H = 0x41
 
 
 def setup():
-  print("teste0")
   i2c.writeto_mem(MPU_ADDR, PWR_MGMT_1, bytes([0x00])) # Inicialização do imu1
   print("Sistema de Monitoramento Inicializado")
 
@@ -86,5 +85,5 @@ while True:
     print("Status: Sistema Normalizado.")
   alarme_anterior = alarme_atual
 
-  time.sleep_ms(40)
+  time.sleep_ms(500)
   
